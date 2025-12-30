@@ -1,0 +1,128 @@
+{
+    "cars": [
+        {
+            "RegNr": "ABC123",
+            "model": "Corolla",
+            "year": 2018,
+            "odometerKm": 45000,
+            "brand": "Toyota",
+            "pricePrDay": 35,
+            "availability": 1
+        },
+        {
+            "RegNr": "XYZ789",
+            "model": "Model S",
+            "year": 2021,
+            "odometerKm": 12000,
+            "brand": "Tesla",
+            "pricePrDay": 120,
+            "availability": 0
+        },
+        {
+            "RegNr": "LMN456",
+            "model": "Civic",
+            "year": 2016,
+            "odometerKm": 78000,
+            "brand": "Honda",
+            "pricePrDay": 40,
+            "availability": 1
+        },
+        {
+            "RegNr": "DEF321",
+            "model": "3 Series",
+            "year": 2019,
+            "odometerKm": 30000,
+            "brand": "BMW",
+            "pricePrDay": 75,
+            "availability": 0
+        },
+        {
+            "RegNr": "GHI654",
+            "model": "Focus",
+            "year": 2017,
+            "odometerKm": 55000,
+            "brand": "Ford",
+            "pricePrDay": 30,
+            "availability": 1
+        }
+    ],
+    "customers": [
+        {
+            "ssn": 197512123,
+            "firstName": "Jane",
+            "lastName": "Smith",
+            "phoneNumber": 555,
+            "email": "jane.smith@example.com"
+        },
+        {
+            "ssn": 198001011,
+            "firstName": "John",
+            "lastName": "Doe",
+            "phoneNumber": 555,
+            "email": "john.doe@example.com"
+        },
+        {
+            "ssn": 198811112,
+            "firstName": "Bob",
+            "lastName": "Lee",
+            "phoneNumber": 555,
+            "email": "bob.lee@example.com"
+        },
+        {
+            "ssn": 199003305,
+            "firstName": "Alice",
+            "lastName": "Johnson",
+            "phoneNumber": 555,
+            "email": "alice.johnson@example.com"
+        },
+        {
+            "ssn": 199507258,
+            "firstName": "Maria",
+            "lastName": "Gonzalez",
+            "phoneNumber": 555,
+            "email": "maria.gonzalez@example.com"
+        }
+    ],
+    "leases": [
+        {
+            "LeaseId": 9,
+            "ssn": 198001011,
+            "RegNr": "XYZ789",
+            "startDate": "2025-05-01",
+            "daysOfLease": 7,
+            "status": 1
+        },
+        {
+            "LeaseId": 10,
+            "ssn": 197512123,
+            "RegNr": "DEF321",
+            "startDate": "2025-03-20",
+            "daysOfLease": 10,
+            "status": 0
+        },
+        {
+            "LeaseId": 11,
+            "ssn": 199003305,
+            "RegNr": "GHI654",
+            "startDate": "2025-04-15",
+            "daysOfLease": 5,
+            "status": 0
+        },
+        {
+            "LeaseId": 12,
+            "ssn": 198811112,
+            "RegNr": "LMN456",
+            "startDate": "2025-05-10",
+            "daysOfLease": 14,
+            "status": 1
+        },
+        {
+            "LeaseId": 13,
+            "ssn": 197512123,
+            "RegNr": "LMN456",
+            "startDate": "2025-05-15",
+            "daysOfLease": 7,
+            "status": 2
+        }
+    ]
+}
