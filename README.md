@@ -6,7 +6,7 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/ognjendrazic/103-Exam
+git clone git@github.com:TormodMasdal/CarRental.git
 cd 103-Exam
 ```
 
