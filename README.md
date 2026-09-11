@@ -1,4 +1,4 @@
-# 🚗 Group Sigma's C++ Car Rental Command Line Application
+# 🚗 Group 3 C++ Car Rental Command Line Application
 
 ---
 
